@@ -1,16 +1,18 @@
 # **Kickstarting with Excel**
 
 ## Overview of Project
-A brief analysis into what Kickstarter projects are created, their goals, pledge results, and level of success. This analysis breaks down the 'theater' category based on the project creation and the level of funding recieved.
+
+A brief analysis into what Kickstarter projects were created, their goals, pledge results, and level of success. This analysis broke down the 'theater' category based on the project creation and the level of funding recieved.
+
 ### Purpose
-The purpose of this analysis was to summarize the trends between the time of year and the outcomes of Kickstarter projects listed under the category 'theater'. An aditional analysis breaks down the level of funding provided specifically to the subcategory 'plays'. 
+
+The purpose of this analysis was to summarize the trends between the time of year and the outcomes of Kickstarter projects listed under the category 'theater'. An aditional analysis broke down the level of funding provided specifically to the subcategory 'plays'. 
+
 ## Analysis and Challenges
 
 1. Analysis of Outcomes Based on Launch Date
 
     The analysis of outcomes versus launch dates summarized the frequency of the outcomes "successful", "failed", and "canceled" to the months theater projects were launched (across all years of data available). A pivot table was created representing the full dataset, and was filtered down to represent only those projects within the 'theater' category. The table can be found in the "Kickstarter" workbook under the "Theater_Outcomes_By_Launch_Date" worksheet. The chart can be seen below.
-
-    [Kickstarter Analysis](/Excel_Module_01/~$Kickstarter_Challenge.xlsx)
 
     ![Outcomes vs Launch Date](/Excel_Module_01/Project_Pictures/Theater_Outcomes_vs_Launch_Date.png "Outcomes Vs Launch Date Chart")
 
@@ -21,9 +23,9 @@ The purpose of this analysis was to summarize the trends between the time of yea
 
     ![Outcomes vs Goals](/Excel_Module_01/Project_Pictures/Outcomes_vs_Goals.png "Outcomes Vs Project Goals")
 
-### Challenges and Difficulties Encountered
+ 3. Challenges and Difficulties Encountered
 
-A few challenges were met in this analysis. When searching the data by criteria, it was a challenge to validate if the results of the "canceled" plays were truly zero across all goal amounts. After assessing the cell formulas, it took physically filtering the data down manually to determine that there were no data points that fell within to those criteria. 
+    A few challenges were met in this analysis. When searching the data by criteria, it was a challenge to validate if the results of the "canceled" plays were truly zero across all goal amounts. After assessing the cell formulas, it took physically filtering the data down manually to determine that there were no data points that fell within to those criteria. 
 
 ## Results
 
