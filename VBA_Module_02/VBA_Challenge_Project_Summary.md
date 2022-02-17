@@ -14,7 +14,7 @@ In addition, the VBA code used in the analysis was written and refactored to det
 
 1. Analysis of Stocks 2017 and 2018
 
-    The analysis of 2017 and 2018 stocks can be seen in the images below. Stepped color scales were used for easy visual cues given the performance of each stock. Prior to the analysis, the stocks and date-stamps were sorted to ensure standard results in the output tables. It can be seen that 2017 saw better returns overall, but 2018 did see increased returns from "RUN" and "TERP".
+   * The analysis of 2017 and 2018 stocks can be seen in the images below. Stepped color scales were used for easy visual cues given the performance of each stock. Prior to the analysis, the stocks and date-stamps were sorted to ensure standard results in the output tables. It can be seen that 2017 saw better returns overall, but 2018 did see increased returns from "RUN" and "TERP".
 
     ![All Stocks 2017](/VBA_Module_02/Project_Pictures/All_Stocks_2017.png "All Stocks 2017 Summary")
 
@@ -36,14 +36,14 @@ In addition, the VBA code used in the analysis was written and refactored to det
 
     ![2017 Original Code](/VBA_Module_02/Project_Pictures/Original_2017.png "2017 Original code runtime")
 
-    ![2017 Refactored Code](/VBA_Module_02/Project_Pictures/Refactored_2017.png "2017 Refactored code runtime")
+    ![2017 Refactored Code](/VBA_Module_02/Project_Pictures/refactored_2017.png "2017 Refactored code runtime")
 
    *  The runtimes for 2018's analysis was improved by .7128906 seconds. The runtimes for 2018 can be seen below.
 
 
      ![2018 Original Code](/VBA_Module_02/Project_Pictures/Original_2018.png "2018 Original code runtime")
 
-     ![2018 Refactored Code](/VBA_Module_02/Project_Pictures/Refactored_2018.png "2018 Refactored code runtime")
+     ![2018 Refactored Code](/VBA_Module_02/Project_Pictures/refactored_2018.png "2018 Refactored code runtime")
 
 3. Challenges
 
@@ -61,4 +61,4 @@ In addition, the VBA code used in the analysis was written and refactored to det
 
 ### Summary
 
-    Refactoring code to be more efficient is beneficial to larger datasts, but potentially removes any ability to readily apply the code to larger datasets. Smaller datasets see minimal improvements. Refactoring code requires additional time from the analyst to rewrite and ammend the existing subroutine, and may not be necessary to increase the workload of the project.
+Refactoring code to be more efficient is beneficial to larger datasts, but potentially removes any ability to readily apply the code to larger datasets. Smaller datasets see minimal improvements. Refactoring code requires additional time from the analyst to rewrite and ammend the existing subroutine, and may not be necessary to increase the workload of the project.
