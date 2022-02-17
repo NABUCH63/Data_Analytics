@@ -1,6 +1,6 @@
 # **VBA Challenge Stock Analysis**
 
-## Overview of Project
+### Overview of Project
 
 A brief analysis utilizing VBA code within excel to automate a stock analysis of the 12 provided 'tickers'. These were assesed for the total volume, starting price, and closing price for each stock. A final calculation using the starting and closing prices determined the total percent return for each stock within the chosen year. 
 
@@ -10,7 +10,7 @@ The purpose of this analysis was to summarize each stock within a specified year
 
 In addition, the VBA code used in the analysis was written and refactored to determine if there were any methods to increase the efficiency of the code's run-time. 
 
-## Analysis and Challenges
+### Analysis and Challenges
 
 1. Analysis of Stocks 2017 and 2018
 
@@ -59,6 +59,6 @@ In addition, the VBA code used in the analysis was written and refactored to det
 
       * Cons - Removing the for-next loop that cycled through the ticker array required the output and formatting sections of code to be shifted to the end of the subroutine, with each output coded for each ticker (versus a single line of code for each variable). This was laborsome to write, and will require manual changes should any additional tickers be added to the dataset 
 
-4. Summary
+### Summary
 
     Refactoring code to be more efficient is beneficial to larger datasts, but potentially removes any ability to readily apply the code to larger datasets. Smaller datasets see minimal improvements. Refactoring code requires additional time from the analyst to rewrite and ammend the existing subroutine, and may not be necessary to increase the workload of the project.
